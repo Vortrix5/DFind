@@ -1,0 +1,62 @@
+#navbar {
+  overflow: hidden;
+  background-color: #42b0ff; 
+  padding-right: 30px;
+  text-align: right;
+
+  
+ }
+#search{
+  width: 40em;
+  height: 50px;
+  
+  margin-top: 60px;
+  
+
+
+}
+
+#navbar a {
+  
+  display: inline-block;
+  color: #b4b7ba;
+  text-align: right;
+  color: white;
+  margin-top: 10px;
+  padding: 17px;
+  text-decoration: none;
+}
+#navbar a:hover{
+  color: #ccc9c9;
+
+}
+
+
+
+.sticky {
+  position: fixed;  
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+#blasa{
+    margin-right: 23em;
+
+
+}
+.fa-search{
+  font-size: 23px;
+  margin-right: 70px;
+  margin-left: 5px;
+ 
+}
+.time{
+  width: 8em !important;
+  margin-left: 5px;
+}
+.col-ms-4{
+  
+}

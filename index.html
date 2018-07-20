@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+    <link rel="stylesheet" href="css/style.css">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Oleo Script Swash Caps' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Spectral' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Oleo Script Swash Caps' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Spectral' rel='stylesheet'>
+</head>
+<body>
+<div id="navbar">
+  <h1 style="float: left; padding-left: 20px; font-family: 'Oleo Script Swash Caps';font-size: 40px; color: white; ">DFind</h1> 
+ 
+  <a href="#title" class="nav">Home</a>
+  <a href="#about" class="nav">About</a>
+  <a href="#contact" class="nav">Contact</a>
+  <a href="add.html" class="nav">Add a Doctor</a>
+
+
+</div>  
+<div>
+  
+<div class="form-group">
+  <center>
+ <select class="selectpicker" style="display: inline-block;" id="special">
+  <option>All</option>
+  <option>Generalist</option>
+  <option>Anesthesiologist</option>
+  <option>Cardiologist</option>
+</select>
+
+ <select class="selectpicker" style="display: inline-block;" id="gov">
+  <option>All</option>
+  <option>Tunis</option>
+  <option>Nabeul</option>
+  <option>Gabes</option>
+</select>
+  <input type="text" class="form-control" id="search" placeholder="Search by name..." style="display: inline-block;">
+  <a href="" id="srch"><i class="fas fa-search" style="display: inline-block;" ></i></a>
+  </center>
+
+</div> 
+ </div>
+     <div class="container docs">
+        <div class="row" id="adds">
+        </div>
+      </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+<script src="js/add.js"></script>
+</body>
+</html>

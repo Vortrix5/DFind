@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+    <link rel="stylesheet" href="css/style.css">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Oleo Script Swash Caps' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Spectral' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Oleo Script Swash Caps' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Spectral' rel='stylesheet'>
+</head>
+<body>
+<div id="navbar">
+  <h1 style="float: left; padding-left: 20px; font-family: 'Oleo Script Swash Caps';font-size: 40px; color: white; ">DFind</h1> 
+ 
+  <a href="#title" class="nav">Home</a>
+  <a href="#about" class="nav">About</a>
+  <a href="#contact" class="nav">Contact</a>
+  <a href="#add" class="nav">Add a Doctor</a>
+
+
+</div>  
+<div class="container docs" >
+      
+        <div class="row">
+            <div class="col-md-4 col-xs-4 col-ms-4" style="margin-left: 28em;
+            margin-top: 20px;  padding-bottom: 20px;">
+                <div class="panel panel-primary">
+
+                    <div class="panel-heading">
+                      <input type="text" class="form-control" placeholder="Doctor's name" id="name" style="width: 10em !important;"></div>
+                    <div class="panel-body">
+                      <center><input type="image" src="res/avatar.png" accept="image/*"  style="border-radius: 300px; width: 150px;" id="change2">
+                        <input type="file" accept="image/*" style="display: none;" id="change1"></center>
+                        <label>Address:</label>
+                        <input type="text" placeholder="Your address..." class="form-control" id="address">
+                       <label>Governorate:</label>
+                        <br>
+                         <select class="selectpicker" id="gov">
+                          <option>Tunis</option>
+                          <option>Nabeul</option>
+                          <option>Gabes</option>
+                        </select>
+                         <br>
+                        <label>Email:</label>
+                        <input type="email" class="form-control" placeholder="Your email..." id="email">
+                        <label>Phone Number:</label>
+                        <input type="tel" maxlength="8" class="form-control" placeholder="Your phone number..." id="phone">
+                        <label style="display: block;">Hours:</label>
+                        <p style="display: inline-block;">From  </p><input type="time" class="form-control time" placeholder="Your work hours" style="padding-left: -30px; display: inline-block" id="from">
+                        <p style="display: inline-block;">To</p><input type="time" class="form-control time" placeholder="Your work hours" style="padding-left: -30px; display: inline-block" id="to">
+                        <label>Speciality :</label>
+                        <br>
+                         <select class="selectpicker" id="spec">
+                          <option>Generalist</option>
+                          <option>Anesthesiologist</option>
+                          <option>Cardiologist</option>
+                        </select>
+                    </div>
+                  </div>
+                  <button class="btn btn-success" style="float: right; width: 40%;" id="submit" type="submit">Add</button>
+                </div>
+            </div>
+        </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
